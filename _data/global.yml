@@ -1,0 +1,14 @@
+#Site settings
+title: 'Flying Moose Development'
+description: 'iOS + web development'
+# url: 'http://flyingmoose.co'
+url: 'http://127.0.0.1:4000'
+footer_text: '(c) 2016 Flying Moose LLC'
+
+#Admin settings
+admin_name: 'Cameron Smith'
+admin_email: 'cam@flyingmoose.co'
+
+#Social settings
+github_url: 'https://github.com/flyingmoosedev'
+twitter_url: 'https://twitter.com/flyingmoosedev'
