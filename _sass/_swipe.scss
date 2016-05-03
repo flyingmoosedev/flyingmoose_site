@@ -1,0 +1,22 @@
+// Homepage
+.swipe-logo-container {
+    padding-top: 10%;
+    vertical-align: middle;
+}
+
+#swipe-hero-img {
+    vertical-align: middle;
+    max-height: 500px;
+}
+
+.swipe {
+    background-color: $fm-dark;
+    height: 100%;
+
+    .site-footer {
+        // position: absolute;
+        // bottom: 0;
+        height: 60px;
+        width: 100%;
+    }
+}

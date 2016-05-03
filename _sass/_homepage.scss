@@ -1,0 +1,21 @@
+// Homepage
+.home-logo-container {
+    padding-top: 10%;
+    vertical-align: middle;
+}
+
+#home-hero-img {
+    vertical-align: middle;
+}
+
+.homepage {
+    background-color: $fm-dark;
+    height: 100%;
+
+    .site-footer {
+        position: absolute;
+        bottom: 0;
+        height: 60px;
+        width: 100%;
+    }
+}
