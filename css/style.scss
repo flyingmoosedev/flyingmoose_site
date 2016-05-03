@@ -6,6 +6,9 @@
 
 $scotch-primary: rgb(255, 69, 69);
 $scotch-secondary: #FF7B7B;
+$fm-dark: #363636;
+$fm-orange: #EC7149;
+// $fm-secondary: rgba(234, 112, 72, 0.7)
 
 %oswald { font-family: 'Oswald', sans-serif; }
 %roboto { font-family: 'Roboto Condensed', sans-serif; }
@@ -15,8 +18,9 @@ body {
     @extend %roboto;
     font-size: 18px;
     line-height: 30px;
-    padding-top: 51px;
+    padding-top: 61px;
     -webkit-font-smoothing: antialiased;
+    background-color: #eeeeee;
 }
 p {
     margin-bottom: 30px;
@@ -26,7 +30,7 @@ a {
     outline: none !important;
     text-decoration: none !important;
     transition: all 225ms ease;
-    color: $scotch-secondary;
+    color: $fm-orange;
 
     &:hover { color: #6165FF; }
 }
@@ -34,6 +38,8 @@ a {
     text-transform: uppercase;
     font-weight: 400;
     @extend %oswald;
+    background-color: #607D8B;
+    border-color: #607D8B;
 }
 h1, h2, h3, h4, h5, h6 { @extend %oswald; }
 ::selection {
@@ -43,6 +49,8 @@ h1, h2, h3, h4, h5, h6 { @extend %oswald; }
 nav.navbar {
     margin: 0;
     min-height: 60px;
+    background-color: $fm-dark;
+    border-color: $fm-dark;
 
     .navbar-right a {
         padding-top: 20px;
@@ -91,7 +99,7 @@ h1.special {
     font-size: 69px;
     line-height: 69px;
     font-weight: 700;
-    color: $scotch-primary;
+    color: $fm-orange;
 
     span {
         display: inline-block;
@@ -128,6 +136,7 @@ h1.special {
         font-weight: 400;
         letter-spacing: -0.05em;
         line-height: 100px;
+        color: $fm-orange;
     }
 
     .featurette {
@@ -243,7 +252,7 @@ aside {
 }
 
 .site-footer {
-    margin-top: 200px;
+    margin-top: 150px;
     text-align: center;
 }
 
@@ -309,3 +318,31 @@ pre {
         line-height: 35px;
     }
 }
+
+// HELPERS //
+
+
+// PAGE SPECIFIC STYLES //
+
+// Homepage
+.home-logo-container {
+    padding-top: 10%;
+    vertical-align: middle;
+}
+
+#home-hero-img {
+    vertical-align: middle;
+}
+
+.homepage {
+    background-color: $fm-dark;
+    height: 100%;
+
+    .site-footer {
+        position: absolute;
+        bottom: 0;
+        height: 60px;
+        width: 100%;
+    }
+}
+

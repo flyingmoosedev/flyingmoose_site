@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="{{ site.data.global.url }}/css/style.css">
 
 </head>
-<body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}">
+<body class="{{ post.title | downcase | replace:' ','-' | replace:',','' | strip_html }}{% if page.category %} category-{{ page.category }}{% endif %}{% if page.layout-class %} layout-{{ page.layout-class }}{% endif %}{% if page.layout =='homepage'%}homepage{% endif %}">
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">

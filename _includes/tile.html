@@ -4,10 +4,6 @@
         {% if post.featured_image %}
         <span class="img" style="background-image: url('{{ post.featured_image }}');"></span>
         {% endif %}
-
-        {% if post.featured_video_id %}
-        <iframe src="https://www.youtube.com/embed/{{ post.featured_video_id }}" frameborder="0" allowfullscreen></iframe>
-        {% endif %}
     </a>
     {% endif %}
     <div class="inner-guts">
