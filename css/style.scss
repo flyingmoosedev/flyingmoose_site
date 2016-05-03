@@ -113,6 +113,8 @@ pre {
 // #############         DO ANY MEDIA QUERIES TWEAKING IN THIS FILE ########## //
 
 // Media Queries //
+
+// All exect large desktop
 @media only screen and (max-width : 991px) {
     pre {
         margin-left: 0;
@@ -120,6 +122,7 @@ pre {
     }
 }
 
+// Tablet + Phone
 @media only screen and (max-width: 767px) {
     // Homepage 
     #home-hero-img {
@@ -134,15 +137,29 @@ pre {
     #swipe-hero-img {
         max-height: 300px;
     }
+    
+    .swipe-app-store-container {
+        max-height: 150px;
+    }
 
     #swipe-app-store {
+        width: 50%;
+        vertical-align: middle;
+    }
+
+    .swipe-tagline-container p {
         padding-top: 10%;
         padding-bottom: 10%;
-        width: 60%;
-        vertical-align: middle;
+        padding-left: 10%; 
+        padding-right: 10%;
+        color: $fm-orange;
+
+        font-size: 36px;
+        text-align: center;
     }
 }
 
+// Phone only 
 @media only screen and (max-width : 480px) {
     .tile .featurette, .topper {
         height: 300px;
@@ -162,6 +179,36 @@ pre {
         font-size: 22px;
         line-height: 35px;
     }
+
+    //Swipe
+    #swipe-app-store {
+        padding-bottom: 5%;
+        width: 50%;
+        vertical-align: middle;
+    }
 }
 
+// Large only 
+@media only screen and (min-width: 992px) {
+    //Swipe
+    #swipe-app-store {
+        padding-top: 5%;
+        padding-bottom: 10%;
+        width: 50%;
+        vertical-align: middle;
+    }
+
+    #swipe-hero-img {
+        margin-top: 10%;
+    }
+
+    .site-footer {
+        position: absolute;
+        bottom: 0;
+    }
+
+    // .swipe-tagline-container p {
+    //     line-height: 110%;
+    // }
+}
 
