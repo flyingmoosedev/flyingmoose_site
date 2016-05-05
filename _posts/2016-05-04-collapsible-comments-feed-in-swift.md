@@ -4,7 +4,7 @@ title: 'How to create a collapsible comments feed in Swift 2'
 date: 2016-05-04 19:30:34
 categories: tutorial ios
 tags: swift uitableview indentation dynamic_height comments_feed
-featured_image: 'http://127.0.0.1:4000/assets/collapsible-comments-feed-featured.png'
+featured_image: 'http://flyingmoose.co/assets/collapsible-comments-feed-featured.png'
 lead_text: 'Learn how to create a collapsible comments feed using UITableView that includes indentation and dynamic table view cell height.'
 ---
 
@@ -21,7 +21,7 @@ While there are [several Objective-C based libraries](http://stackoverflow.com/a
 
 The cell below shows a basic version of what I used in the Swipe app. The important thing here is creating an IBOutlet for the expandRepliesButton's leading constraint, refered to as **expandRepliesButtonLeadingConstraint** (which is just the leading space between expandRepliesButton and it's superview). 
 
-![UITableViewCell nib](http://127.0.0.1:4000/assets/cell-nib.png)
+![UITableViewCell nib]({{ site.data.global.url }}/assets/cell-nib.png)
 
 Both the username UILabel and the comment UITextView are positioned relative to the **expandRepliesButton**. 
 

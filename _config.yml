@@ -9,7 +9,7 @@ data_dir: ./_data
 # Handling Reading
 safe:         false
 include:      [".htaccess"]
-exclude:      []
+exclude:      ['Gemfile', 'Gemfile.lock', '*.sublime-*', 'lib','vendor', 'Rakefile', 's3_website.yml']
 keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -22,7 +22,7 @@ unpublished: false
 
 # Plugins
 whitelist: []
-gems:      [jekyll-paginate]
+gems:      [jekyll-paginate, jekyll-redirect-from, jekyll-feed, jekyll-sitemap]
 
 # Conversion
 markdown:    kramdown
