@@ -69,16 +69,16 @@ h1.special {
         padding: 0 15px;
         max-width: 1000px;
 
-        &:before, &:after {
-            content: '';
-            position: absolute;
-            display: block;
-            height: 1px;
-            background: #e8e8e8;
-            width: 99999999px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
+        // &:before, &:after {
+        //     content: '';
+        //     position: absolute;
+        //     display: block;
+        //     height: 1px;
+        //     background: #e8e8e8;
+        //     width: 99999999px;
+        //     top: 50%;
+        //     transform: translateY(-50%);
+        // }
 
         &:before { left: 100%; }
         &:after { right: 100%; }
@@ -99,9 +99,9 @@ aside {
 }
 
 // Code blocks
-pre {
-    margin: 75px -100px;
-}
+// pre {
+//     margin: 75px -100px;
+// }
 
 @import '../_sass/homepage';
 @import '../_sass/posts';
@@ -202,13 +202,9 @@ pre {
         margin-top: 10%;
     }
 
-    .site-footer {
-        position: absolute;
-        bottom: 0;
-    }
-
-    // .swipe-tagline-container p {
-    //     line-height: 110%;
+    // .site-footer {
+    //     position: absolute;
+    //     bottom: 0;
     // }
 }
 
