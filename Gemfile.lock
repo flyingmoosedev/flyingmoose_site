@@ -59,6 +59,7 @@ DEPENDENCIES
   jekyll-feed
   jekyll-paginate
   jekyll-redirect-from
+  jekyll-sass-converter
   jekyll-sitemap
   kramdown
   rake

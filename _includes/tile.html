@@ -19,10 +19,10 @@
         </aside>
         <div class="excerpt">{{ post.lead_text }}</div>
         <a href="{{ post.url | prepend: site.baseurl }}" class="read-more btn btn-info btn-lg">Read More <i class="fa fa-angle-right"></i></a>
-        {% if post.categories != empty %}
+        {% if post.tags != empty %}
         <div class="tags">
             {% for tag in post.tags %}
-            <span>{{ tag }}</span>
+            <a href="tags/#{{ tag | cgi_escape }}" target="_blank"><span>{{ tag }}</span></a>
             {% endfor %}
         </div>
         {% endif %}

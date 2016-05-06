@@ -19,10 +19,10 @@
     {% if page.id %}
     <aside>
         {{ page.date | date: "%m.%d.%y" }}
-        {% if page.categories != empty %}
+        {% if page.tags != empty %}
             &middot;
-            {% for category in page.categories %}
-                <span>{{ category }}</span>
+            {% for tag in page.tags %}
+                <a href="blog/tags/#{{ tag | cgi_escape }}" target="_blank"><span>{{ tag }}</span></a>
             {% endfor %}
         {% endif %}
     </aside>

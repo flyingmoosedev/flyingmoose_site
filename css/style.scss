@@ -6,7 +6,7 @@
 
 @import '../_sass/vars';
 
-// Overall 
+// Overall
 body {
     @extend %roboto;
     font-size: 18px;
@@ -125,10 +125,10 @@ aside {
 
 // Tablet + Phone
 @media only screen and (max-width: 767px) {
-    // Homepage 
+    // Homepage
     #home-hero-img {
         width: 90%;
-        vertical-align: middle;
+        // vertical-align: middle;
     }
 
     // Swipe
@@ -138,7 +138,7 @@ aside {
     #swipe-hero-img {
         max-height: 300px;
     }
-    
+
     .swipe-app-store-container {
         max-height: 150px;
     }
@@ -151,7 +151,7 @@ aside {
     .swipe-tagline-container p {
         padding-top: 10%;
         padding-bottom: 10%;
-        padding-left: 10%; 
+        padding-left: 10%;
         padding-right: 10%;
         color: $fm-orange;
 
@@ -160,7 +160,7 @@ aside {
     }
 }
 
-// Phone only 
+// Phone only
 @media only screen and (max-width : 480px) {
     .tile .featurette, .topper {
         height: 300px;
@@ -181,6 +181,9 @@ aside {
         line-height: 35px;
     }
 
+    // Homepage
+
+
     //Swipe
     #swipe-app-store {
         padding-bottom: 5%;
@@ -189,7 +192,7 @@ aside {
     }
 }
 
-// Large only 
+// Large only
 @media only screen and (min-width: 992px) {
     //Swipe
     #swipe-app-store {
@@ -208,4 +211,3 @@ aside {
     //     bottom: 0;
     // }
 }
-

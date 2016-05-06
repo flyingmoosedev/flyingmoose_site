@@ -22,7 +22,7 @@ unpublished: false
 
 # Plugins
 whitelist: []
-gems:      [jekyll-paginate, jekyll-redirect-from, jekyll-feed, jekyll-sitemap]
+gems:      [jekyll-paginate, jekyll-redirect-from, jekyll-feed, jekyll-sitemap, jekyll-sass-converter]
 
 # Conversion
 markdown:    kramdown
@@ -37,7 +37,7 @@ host:    127.0.0.1
 baseurl: "" # does not include hostname
 
 # Outputting
-permalink:     :categories/:title.html
+permalink:     /blog/:categories/:title.html
 paginate: 3
 # paginate_path: /page:num
 paginate_path: /blog/page:num
