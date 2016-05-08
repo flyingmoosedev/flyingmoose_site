@@ -2,10 +2,10 @@
 layout: inner
 title: 'How to use the iOS Keychain in Swift 2: Part Two'
 date: 2016-05-07 19:30:34
-tags: tutorial swift ios framework encryption keychain embedded_framework
+tags: [tutorial, swift, ios, framework, encryption, keychain, embedded_framework]
 categories: ios
 featured_image: 'http://flyingmoose.co/assets/posts/2016-05-07-swift-2-guide-to-keychain-encryption-part-two/build-framework.png'
-lead_text: 'Use what you learned in part one of this tutorial to create your own reusable embedded Swift framework.'
+lead_text: 'Use what you learned in part one of this tutorial to create your own reusable embedded Swift framework to encrypt data in the iOS Keychain.'
 ---
 
 In [part one]({{ site.data.global.url }}/blog/ios/swift-2-guide-to-keychain-encryption-part-one.html) of this tutorial series you learned how to interact with Apple's [Keychain Services API](https://developer.apple.com/library/ios/documentation/Security/Reference/keychainservices/) in order to securely store and encrypt your app's data. In part two you will learn how to take the **KeychainManager** struct you created and turn it into it's own framework that you can reuse in all your future apps!

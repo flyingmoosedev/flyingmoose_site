@@ -8,11 +8,13 @@
 
     <!-- Meta -->
     <meta charset="utf-8">
-    <title>{% if page.title %}{{ page.title }} | {{ site.data.global.title }}{% elsif post.title %}{{ post.title }} | {{ site.data.global.title }}{% else %}{{ site.data.global.title }} | {{ site.data.global.description }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} | {{ site.data.global.title }}{% elsif post.title %}{{ post.title }}{% else %}{{ site.data.global.title }} | {{ site.data.global.description }}{% endif %}</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="Description" content="{% if post.lead_text %}{{ post.lead_text }}{% elsif page.lead_text %}{{ page.lead_text }}{% else %}{{ site.data.global.meta_description }}{% endif %}">
+    <meta name="keywords" content="{% if post.tags %}{{ post.tags | join: ', '}}{% elsif page.tags %}{{ page.tags | join: ', ' }}{% else %} ios swift web-development tutorial swift-2 blog flyingmoose flying-moose{% endif %}">
 
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.data.global.title }} {{ site.data.global.description }}" href="{{ site.data.global.url }}/feed.xml">

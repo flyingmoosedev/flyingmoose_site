@@ -1,6 +1,7 @@
 #Site settings
 title: 'Flying Moose Development'
 description: 'iOS + web development'
+meta_description: 'Flying Moose iOS and web development blog featuring Swift 2 tutorials'
 url: 'http://flyingmoose.co'
 # url: 'http://127.0.0.1:4000'
 footer_text: '(c) 2016 Flying Moose LLC'
