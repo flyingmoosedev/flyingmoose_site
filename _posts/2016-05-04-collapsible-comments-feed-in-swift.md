@@ -4,18 +4,18 @@ title: 'How to create a collapsible comments feed in Swift 2'
 date: 2016-05-04 19:30:34
 tags: tutorial swift ios uitableview dynamic_height
 categories: ios
-featured_image: 'http://flyingmoose.co/assets/collapsible-comments-feed-featured.png'
+featured_image: 'https://flyingmoose.co/assets/collapsible-comments-feed-featured.png'
 lead_text: 'Learn how to create a collapsible comments feed using UITableView that includes indentation and dynamic table view cell height.'
 ---
 
-One of the most frustrating challenges I encountered while developing the [Swipe for Reddit](http://flyingmoose.co/swipe) app was implementing the comments feed functionality. My main requirements were that the comments feed:
+One of the most frustrating challenges I encountered while developing the [Swipe for Reddit](https://flyingmoose.co/swipe) app was implementing the comments feed functionality. My main requirements were that the comments feed:
 
 * Allowed UITableViewCells to be dynamically sized
 * Did not lag while scrolling
 * Could be collapsed/expanded without relying on "didSelectRowAtIndexPath" (needed that for other functionality within the app)
 
 <br>
-While there are [several Objective-C based libraries](http://stackoverflow.com/a/32220026) that exist, I found most were either [abandoned](https://github.com/adamhoracek/KOTree) or [too complex](https://github.com/Augustyniak/RATreeView) for a simple comments tree. After spending several days trying to hack together workarounds for the various issues I encountered, I decided to scrap the 3rd-party libraries all together and just build out my own solution.
+While there are [several Objective-C based libraries](https://stackoverflow.com/a/32220026) that exist, I found most were either [abandoned](https://github.com/adamhoracek/KOTree) or [too complex](https://github.com/Augustyniak/RATreeView) for a simple comments tree. After spending several days trying to hack together workarounds for the various issues I encountered, I decided to scrap the 3rd-party libraries all together and just build out my own solution.
 
 ### Creating the UITableViewCell
 
@@ -163,7 +163,7 @@ extension YourViewController:CommentCellDelegate {
 {% endhighlight %}
 <br>
 
-1. Set the **setAnimationsEnabled** property of UIView to false before making changes to the comments tableView (otherwise you get [strange visual glitches](http://stackoverflow.com/a/9310886/5329353))
+1. Set the **setAnimationsEnabled** property of UIView to false before making changes to the comments tableView (otherwise you get [strange visual glitches](https://stackoverflow.com/a/9310886/5329353))
 2. Call **tableView.beginUpdates()** to start the update cycle
 3. Determine the index of the new/existing child comment and make necessary changes insertions/deletions to the tableView in order (first dataSource, then tableView)
 4. Call **tableView.endUpdates()** and enable animations again by calling **UIView.setAnimationsEnabled(true)**

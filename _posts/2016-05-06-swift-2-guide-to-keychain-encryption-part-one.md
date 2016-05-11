@@ -4,7 +4,7 @@ title: 'How to use the iOS Keychain in Swift 2: Part One'
 date: 2016-05-06 19:30:34
 tags: tutorial swift ios encryption keychain
 categories: ios
-featured_image: 'http://flyingmoose.co/assets/keychain-part-one-featured.png'
+featured_image: 'https://flyingmoose.co/assets/keychain-part-one-featured.png'
 lead_text: 'Learn how to encrypt the user data in your app using the iOS Keychain in Swift 2.'
 ---
 
@@ -14,7 +14,7 @@ If you've ever tried to read through [Apple's documentation](https://developer.a
 > 
 > A result code. See Keychain Services Result Codes. Call SecCopyErrorMessageString **(OS X only)** to get a human-readable string explaining the result.
 
-*(Well I guess that's one way to force devs to [make OS X apps](http://www.macworld.com/article/3007290/os-x/the-mac-app-store-not-gone-but-certainly-forgotten.html))*
+*(Well I guess that's one way to force devs to [make OS X apps](https://www.macworld.com/article/3007290/os-x/the-mac-app-store-not-gone-but-certainly-forgotten.html))*
 
 It's like they *want* you to keep all your access tokens unencrypted.
 

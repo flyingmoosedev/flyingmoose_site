@@ -37,11 +37,15 @@ host:    127.0.0.1
 baseurl: "" # does not include hostname
 
 # Outputting
-permalink:     /blog/:categories/:title
+permalink:     /blog/:categories/:title.html
 paginate: 3
 # paginate_path: /page:num
 paginate_path: /blog/page:num
 timezone:      null
+
+#Minification
+sass:
+  style: compressed
 
 quiet:    false
 defaults: []
