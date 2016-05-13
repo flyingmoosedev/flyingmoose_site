@@ -2,11 +2,19 @@
 layout: inner
 title: About
 permalink: /about/
+tags: [cameron smith, cameron smith developer, developer, flying moose, flying moose cameron smith]
 ---
 
-Flying Moose provides various iOS + web development services to clients, with a focus on Swift-based projects. 
+{::options parse_block_html="true" /}
+
+<img class="img-responsive center-block" id="about-pic" src="{{ site.data.global.url }}/assets/about-pic.png"/>
+
+<div class="about-text">
+*Cameron Smith, Founder/Developer*
+</div>
 
 ## Contact
+
 
 For overall site or blog stuff: [cam@flyingmoose.co](mailto:cam@flyingmoose.co)
 

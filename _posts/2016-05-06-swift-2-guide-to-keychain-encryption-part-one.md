@@ -2,7 +2,7 @@
 layout: inner
 title: 'How to use the iOS Keychain in Swift 2: Part One'
 date: 2016-05-06 19:30:34
-tags: tutorial swift ios encryption keychain
+tags: [tutorial, swift, ios, encryption, keychain]
 categories: ios
 featured_image: 'https://flyingmoose.co/assets/keychain-part-one-featured.png'
 lead_text: 'Learn how to encrypt the user data in your app using the iOS Keychain in Swift 2.'

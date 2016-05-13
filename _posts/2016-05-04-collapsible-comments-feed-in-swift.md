@@ -2,7 +2,7 @@
 layout: inner
 title: 'How to create a collapsible comments feed in Swift 2'
 date: 2016-05-04 19:30:34
-tags: tutorial swift ios uitableview dynamic_height
+tags: [tutorial, swift, ios, uitableview, dynamic height]
 categories: ios
 featured_image: 'https://flyingmoose.co/assets/collapsible-comments-feed-featured.png'
 lead_text: 'Learn how to create a collapsible comments feed using UITableView that includes indentation and dynamic table view cell height.'

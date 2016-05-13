@@ -2,7 +2,7 @@
 layout: inner
 title: 'How to use the iOS Keychain in Swift 2: Part Two'
 date: 2016-05-07 19:30:34
-tags: [tutorial, swift, ios, framework, encryption, keychain, embedded_framework]
+tags: [tutorial, swift, ios, framework, encryption, keychain, embedded framework]
 categories: ios
 featured_image: 'https://flyingmoose.co/assets/posts/2016-05-07-swift-2-guide-to-keychain-encryption-part-two/build-framework.png'
 lead_text: 'Use what you learned in part one of this tutorial to create your own reusable embedded Swift framework to encrypt data in the iOS Keychain.'
