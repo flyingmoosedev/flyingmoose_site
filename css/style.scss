@@ -69,17 +69,6 @@ h1.special {
         padding: 0 15px;
         max-width: 1000px;
 
-        // &:before, &:after {
-        //     content: '';
-        //     position: absolute;
-        //     display: block;
-        //     height: 1px;
-        //     background: #e8e8e8;
-        //     width: 99999999px;
-        //     top: 50%;
-        //     transform: translateY(-50%);
-        // }
-
         &:before { left: 100%; }
         &:after { right: 100%; }
     }

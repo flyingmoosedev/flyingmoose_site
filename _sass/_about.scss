@@ -1,9 +1,26 @@
 // About page
+@import '../_sass/vars';
 
-#about-pic {
-	max-height: 250px;
+#about-profile-pic {
+	max-height: 175px;
 }
 
-.about-text {
-	text-align: center;
+.about-main {
+	h1 {
+		@extend %roboto;
+		font-weight: 300;
+	}
+	h3 {
+		@extend %roboto;
+		font-weight: 300;
+	}
+}
+
+.about-lead {
+	padding-top: 4%;
+}
+
+.about-social img {
+	max-height: 50px;
+	max-width: 50px;
 }
