@@ -22,7 +22,7 @@
         {% if post.tags != empty %}
         <div class="tags">
             {% for tag in post.tags %}
-            <a href="tags/#{{ tag | cgi_escape }}" target="_blank"><span>{{ tag }}</span></a>
+            <a href="https://flyingmoose.co/blog/tags/#{{ tag | cgi_escape }}" target="_blank"><span>{{ tag }}</span></a>
             {% endfor %}
         </div>
         {% endif %}
