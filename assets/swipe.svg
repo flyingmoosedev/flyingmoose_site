@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="368px" height="244px" viewBox="0 0 368 244" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>swipe</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Microsite" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Projects-Page" transform="translate(-524.000000, -268.000000)">
+            <g id="swipe" transform="translate(524.000000, 268.000000)">
+                <rect id="Rectangle" fill="#EC7149" x="0" y="0" width="368" height="244"></rect>
+                <g id="Group" transform="translate(72.000000, 58.000000)" fill="#FFFFFF">
+                    <text id="Sw-pe" font-family="Avenir-Book, Avenir" font-size="80.7652502" font-weight="normal">
+                        <tspan x="1.5940216" y="81">Sw pe</tspan>
+                    </text>
+                    <polygon id="Rectangle-191" points="120.569868 25.0700324 120.569868 84.7605856 114.090746 84.7605856 114.090746 25.0700324 107.611624 25.0700324 116.867513 1.19381106 126.123401 25.0700324"></polygon>
+                    <polygon id="Rectangle-191" points="132.355257 43.0033325 138.316049 43.0033325 138.316049 107.565993 144.276841 107.565993 135.761424 133.391058 127.246006 107.565993 132.355257 107.565993"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
